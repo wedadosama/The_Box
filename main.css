@@ -128,14 +128,10 @@ header nav ul li:last-child a {
   height: 100vh;
   background-image: url(../images/hero.webp);
   background-size: cover;
-  background-position: center;
+  background-position: ;
   
 }
-.hero .container {
-  height: 100%;
-}
 .hero h1 {
-  font-size: 70px;
-  line-height: 1.6;
-
+  font-size: 40px;
+justify-content: center;
 }
