@@ -84,6 +84,9 @@ section {
 .text-center {
   text-align: center;
 }
+.special-text {
+  color: var(--main-color);
+}
 a {
   text-decoration: none;
 }
@@ -238,4 +241,15 @@ header nav ul li:last-child a {
 }
 .services .card:nth-child(even) h3 {
   color: var(--white);
+}
+.contact .container img{
+  width: 45%;
+  margin-left: 80px;
+}
+.contact .container .col{
+  width: 50%;
+}
+.contact .container a{
+  background-color: var(--main-color);
+  color: var(--bg);
 }
