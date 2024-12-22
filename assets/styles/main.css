@@ -250,6 +250,9 @@ header nav ul li:last-child a {
   .contact .container img {
     display: none;
   }
+  .col{
+ width: fit-content;
+  }
 }
 .contact .container .col {
   width: 50%;
@@ -264,6 +267,7 @@ header nav ul li:last-child a {
   background-size: cover;
   background-position: center;
 }
+
 .consultation .container {
   gap: 100px;
 }
@@ -278,10 +282,10 @@ header nav ul li:last-child a {
     margin-left: auto;
   }
   .consultation .section-description {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 .consultation a {
   background-color: transparent;
-  border: 3px solid var(--white);
+  border: 2px solid var(--white);
 }
