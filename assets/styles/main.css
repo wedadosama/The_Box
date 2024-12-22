@@ -45,8 +45,8 @@ body {
     width: 1170px;
   }
 }
-section{
-  padding:50px 0;
+section {
+  padding: 50px 0;
 }
 .flex {
   display: flex;
@@ -61,12 +61,27 @@ section{
 .color-white {
   background-color: var(--white);
 }
+.section-description {
+  margin: 20px 0;
+  color: var(--text-color);
+  line-height: 1.5;
+}
 .section-title {
   margin: 20px 0;
   font-size: var(--h2-size);
   color: var(--title-color);
 }
-.text-center{
+.section-btn {
+  display: block;
+  min-width: 150px;
+  max-width: fit-content;
+  padding: 10px;
+  text-align: center;
+  color: var(--main-color);
+  background-color: var(--bg);
+  border-radius: 2px;
+}
+.text-center {
   text-align: center;
 }
 a {
@@ -140,12 +155,12 @@ header nav ul li:last-child a {
     gap: 20px;
   }
 }
+
 .hero {
-  height: calc(100vh - 88px);
+  height: 100vh;
   background-image: url(../images/hero.webp);
   background-size: cover;
   background-position: center;
-  
 }
 .hero .container {
   height: 100%;
@@ -153,6 +168,11 @@ header nav ul li:last-child a {
 .hero h1 {
   font-size: 70px;
   line-height: 1.6;
+}
+@media (max-width: 991px) {
+  .hero h1 {
+    font-size: 50px;
+  }
 }
 .our-reputation .cards-list {
   padding-top: var(--section-padding);
@@ -167,4 +187,28 @@ header nav ul li:last-child a {
 }
 .card img {
   margin-bottom: 20px;
+}
+.about {
+  position: relative;
+}
+.about .info {
+  padding: 20px;
+  background-color: var(--main-color);
+}
+@media (min-width: 992px) {
+  .about .info {
+    position: absolute;
+    top: calc(50% - 170px);
+    right: 200px;
+    width: 400px;
+  }
+}
+.about .info h2 {
+  color: var(--white);
+}
+.about .info p {
+  color: var(--white);
+}
+.about .info a {
+  color: var(--main-color);
 }
