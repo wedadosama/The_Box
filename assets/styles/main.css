@@ -242,14 +242,46 @@ header nav ul li:last-child a {
 .services .card:nth-child(even) h3 {
   color: var(--white);
 }
-.contact .container img{
+.contact .container img {
   width: 45%;
   margin-left: 80px;
 }
-.contact .container .col{
+@media (max-width: 991px) {
+  .contact .container img {
+    display: none;
+  }
+}
+.contact .container .col {
   width: 50%;
 }
-.contact .container a{
+.contact .container a {
   background-color: var(--main-color);
   color: var(--bg);
+}
+.consultation {
+  background-image: url(../images/image-2.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.consultation .container {
+  gap: 100px;
+}
+.consultation p {
+  color: var(--white);
+}
+.consultation .section-description {
+  font-size: 20px;
+}
+@media (min-width: 992px) {
+  .consultation .col:last-child a {
+    margin-left: auto;
+  }
+  .consultation .section-description {
+    font-size: 40px;
+  }
+}
+.consultation a {
+  background-color: transparent;
+  border: 3px solid var(--white);
 }
