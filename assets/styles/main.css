@@ -402,3 +402,10 @@ textarea {
 .communicattion .container .col ul li a {
   color: var(--main-color);
 }
+footer{
+  background-color: var(--main-color);
+  padding: 30px 0;
+}
+footer .container p{
+  color:var(--alt-text-color);
+}
