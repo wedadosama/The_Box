@@ -250,8 +250,8 @@ header nav ul li:last-child a {
   .contact .container img {
     display: none;
   }
-  .col{
- width: fit-content;
+  .col {
+    width: fit-content;
   }
 }
 .contact .container .col {
@@ -267,7 +267,6 @@ header nav ul li:last-child a {
   background-size: cover;
   background-position: center;
 }
-
 .consultation .container {
   gap: 100px;
 }
@@ -288,4 +287,28 @@ header nav ul li:last-child a {
 .consultation a {
   background-color: transparent;
   border: 2px solid var(--white);
+}
+.project-card {
+  background-color: var(--main-color);
+}
+.col-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 40px;
+}
+.projects .project-card h3,
+.projects .project-card p {
+  color: var(--white);
+  padding: 10px;
+}
+.projects .container .text {
+  color: var(--alt-text-color);
+  padding: 20px 0;
+  line-height: 1.6;
+}
+h4 {
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 30px;
 }
