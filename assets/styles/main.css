@@ -312,3 +312,51 @@ h4 {
   font-weight: bold;
   font-size: 30px;
 }
+.contact-us {
+  position: relative;
+  background-color: var(--bg);
+}
+.contact-us h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.contact-us p {
+  font-size: var(--alt-text-size);
+  color: var(--text-color);
+  padding-top: 20px;
+  line-height: 1.6;
+}
+.contact-us form input,
+textarea {
+  padding: 8px;
+  background-color: var(--white);
+  border: 1px solid rgb(0 0 0 / 0.1);
+  outline: none;
+  margin: 15px;
+  width: 250px;
+}
+.red {
+  color: red;
+  padding: 5px;
+  font-size: 20px;
+}
+textarea {
+  width: 200;
+  height: 100px;
+}
+@media (max-width: 991px) {
+  .contact-us form .btn {
+    position: absolute;
+    /* right: 500px; */
+  }
+}
+.contact-us form label {
+  align-items: start;
+}
+.contact-us form .submit-btn {
+  background-color: var(--main-color);
+  color: var(--white);
+  padding: 15px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
